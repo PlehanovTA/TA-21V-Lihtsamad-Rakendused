@@ -46,7 +46,7 @@ def get_next_free_pos(current_pos_y, current_pos_x):
     return random_move
 
 next_free_pos = get_next_free_pos(start_pos_y, start_pos_x)
-print("next free pos", next_free_pos)
+print("Next free position is: ", next_free_pos)
 
 while next_free_pos:
     next_free_pos = get_next_free_pos(next_free_pos[0], next_free_pos[1])
